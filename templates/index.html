@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<div id="myBody">
+	<h2>Witaj Na Mojej Stronie Domowej</h2>
+	<img src="{{ url_for('static', filename='knight-pose.png') }}" width="197" height="270" alt="Tu jestem ja w CodeComabat ;P">
+	<div id="right">
+		<h1>O Mnie</h1>
+		<p><strong>Imię:</strong> Pulus</p>
+		<p><strong>Nazwisko:</strong> Griseo</p>
+		<p><strong><a href="kontakt">KONTAKT =></a></strong></p>
+	</div>
+</div>
+{% endblock %}
+

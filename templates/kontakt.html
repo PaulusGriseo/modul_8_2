@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<div id="myBody">
+	<h2>Witaj Na Mojej Stronie Domowej</h2>
+	<img src="{{ url_for('static', filename='knight-pose.png') }}" width="197" height="270" alt="Tu jestem ja w CodeComabat ;P">
+	<div id="right">
+		<h1>Kontakt</h1>
+		<p>
+			<ul>
+				<li><p><strong>email:</strong> paulus_griseo@codecomabt.fake</p></li>
+				<li><p><strong>telefon:</strong> 666 666 666</p></li>
+			</ul>
+		</p>
+		<p><strong><a href="/">Strona Domowa =></a></strong></p>
+	
+		<p><strong>Wyślij Wiadomość:</strong></p>
+		<textarea></textarea>
+		
+	</div>
+</div>
+{% endblock %}
